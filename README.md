@@ -35,7 +35,13 @@ This project is structured as follows:
 └── go.sum                   # Sum file for module dependencies.
 
 
-## Description of Directories
+## Frontend Structure:
+src/components/: Directory for React components.
+src/pages/: Directory for page components.
+src/App.tsx: Main app component.
+src/index.tsx: Entry point for the React application.
+
+## Server Structure
 
 - **`cmd/`**: Contains the main applications for this project, including the starter of the web server.
 - **`api/`**: Manages Web API-specific components like handlers, middleware, and response formatting.
