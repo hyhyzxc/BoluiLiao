@@ -36,10 +36,10 @@ This project is structured as follows:
 
 
 ## Frontend Structure:
-src/components/: Directory for React components.
-src/pages/: Directory for page components.
-src/App.tsx: Main app component.
-src/index.tsx: Entry point for the React application.
+- **`src/components/`**: Directory for React components.
+- **`src/pages/`**: Directory for page components.
+- **`src/App.tsx`**: Main app component.
+- **`src/index.tsx`**: Entry point for the React application.
 
 ## Server Structure
 
