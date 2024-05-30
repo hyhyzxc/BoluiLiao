@@ -1,5 +1,7 @@
 # BoluiLiao
 
+This project is structured as follows:
+
 /server
 │
 ├── cmd/                     # Main applications for this project.
@@ -31,3 +33,15 @@
 │
 ├── go.mod                   # Go module dependencies.
 └── go.sum                   # Sum file for module dependencies.
+
+
+## Description of Directories
+
+- **`cmd/`**: Contains the main applications for this project, including the starter of the web server.
+- **`api/`**: Manages Web API-specific components like handlers, middleware, and response formatting.
+- **`config/`**: Houses configuration file parsers and other configuration-related utilities.
+- **`internal/`**: Holds private application code that defines business logic and application models.
+- **`pkg/`**: Library code that can be used externally, including database utilities and various helper functions.
+- **`deployments/`**: Contains deployment configurations and scripts including Docker setups.
+- **`tests/`**: Provides additional external test applications and test data.
+
